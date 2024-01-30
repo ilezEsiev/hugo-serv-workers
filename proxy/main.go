@@ -7,10 +7,10 @@ import (
 	"net/http"
 	"net/http/httputil"
 	"net/url"
+	"proxy/counter"
+	"proxy/graph"
+	"proxy/tree"
 	"strings"
-	"studentgit.kata.academy/razzbitb/go-kata/course3/2.server/4.server_http_router_middleware/hugoproxy_tasks/proxy/workers/counter"
-	"studentgit.kata.academy/razzbitb/go-kata/course3/2.server/4.server_http_router_middleware/hugoproxy_tasks/proxy/workers/graph"
-	"studentgit.kata.academy/razzbitb/go-kata/course3/2.server/4.server_http_router_middleware/hugoproxy_tasks/proxy/workers/tree"
 )
 
 func main() {
